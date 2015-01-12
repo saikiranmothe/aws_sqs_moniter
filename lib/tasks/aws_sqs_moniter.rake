@@ -43,6 +43,36 @@ namespace :aws_sqs_moniter do
     end
   end
 
+  #Queues GET/READ/DELETE
+  namespace :queues do 
+
+    desc 'get queues'     
+    task get: :environment do
+    puts "Get Queue list from AWS SQS Account"
+    end
+
+    desc "delete queues"
+    task delete: :environment do
+    puts "Delete Queues from AWS SQS Account"
+    end
+
+    desc "READ messages from a queue"
+    task read: :environment do
+    puts "read messages from a queue"
+    end 
+
+  end
+
+  namespace :workers do
+    
+    desc "Start Workers"
+    task start: :environment do
+      puts "start workers in Background"
+    end
+  
+  end
+
+
   namespace :dead_letters do
     desc 'Retries all dead letters (or pass SQS_ID or MESSAGE_ID to select a specific message).'
     task retry: :environment do

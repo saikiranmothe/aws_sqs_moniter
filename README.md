@@ -1,6 +1,6 @@
-# AwsSqsMoniter
+# AWS SQS Moniter
 
-TODO: Write a gem description
+TODO: Moniter Queues - AWS SQS.
 
 ## Installation
 
