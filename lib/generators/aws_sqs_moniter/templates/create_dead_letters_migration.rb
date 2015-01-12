@@ -4,8 +4,8 @@ class CreateDeadLetters < ActiveRecord::Migration
       t.timestamps
 
       t.string :sqs_id, null: false, index:  { unique: true }
-      t.uuid :message_id, null: false, index: true
-      t.json :message, null: false
+      t.string	 :message_id, null: false, index: true
+      t.string :message, null: false
     end
   end
 end

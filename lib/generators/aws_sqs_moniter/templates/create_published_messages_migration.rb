@@ -4,8 +4,8 @@ class CreatePublishedMessages < ActiveRecord::Migration
       t.timestamps
 
       t.string :topic, null: false
-      t.json :message, null: false
-      t.json :response
+      t.string :message, null: false
+      t.string :response
 
       t.integer :attempts, null: false, default: 0
       t.datetime :attempted_at
