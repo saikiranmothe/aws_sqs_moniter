@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
 Setup  aws_sqs_moniter to rails application :
 
-   $ rails generate aws_sqs_moniter:install
+    $ rails generate aws_sqs_moniter:install
 
 
 ## Contributing
