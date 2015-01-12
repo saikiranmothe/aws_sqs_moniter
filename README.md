@@ -18,13 +18,17 @@ Or install it yourself as:
 
     $ gem install aws_sqs_moniter
 
-## Usage
 
-TODO: Write usage instructions here
+
+## Usage
+Setup  aws_sqs_moniter to rails application :
+
+TODO:$ rails g  aws_sqs_moniter:setup
+
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/aws_sqs_moniter/fork )
+1. Fork it ( https://github.com/saikiranmothe/aws_sqs_moniter/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
